@@ -1,0 +1,55 @@
+/*nva related css*/
+body{
+    
+    font-family: 'lato', sans-serif;
+    font-family: 'open sans', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0,200px;
+}
+.text-primary{
+    color: rgb(41, 241, 35);
+}
+.btn-primary{
+    border-radius: 5%;
+    background: #75e629;
+    font-size: 20px;
+    width: 700;
+    padding: 15px 35px;
+    color: aliceblue;
+
+}
+.nav-title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+
+
+.header{
+    background-color: antiquewhite;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-picture{
+    width: 500px;
+
+}
