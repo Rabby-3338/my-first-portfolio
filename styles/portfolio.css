@@ -94,6 +94,12 @@ main{
     margin: 0 auto;
     text-align: center;
 }
+
+.sec{
+    background-color: rgba(238, 233, 227, 0.39);
+  justify-content: space-between;
+}
+
 main section{
     margin-top: 130px;
 }
@@ -158,3 +164,10 @@ margin-bottom: 10px;
     margin-top: 50px;
 }
 
+
+footer{
+    display: flex;
+    background: #e7dfdf;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
